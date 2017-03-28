@@ -17,4 +17,9 @@
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:src="@drawable/image"/>
+    <com.jll.zoro.property_animation.MyPointView
+        android:id="@+id/pointview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom"/>
 </LinearLayout>

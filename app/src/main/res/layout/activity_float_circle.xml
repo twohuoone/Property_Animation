@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_float_circle"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.jll.zoro.property_animation.FloatCircleActivity">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:text="发散"
+            android:id="@+id/menu"
+            style="@style/MenuStyle"
+            />
+
+        <Button
+            android:id="@+id/item1"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_gravity="bottom|right"
+            android:background="@drawable/blue"
+            android:visibility="gone"/>
+
+        <Button
+            android:id="@+id/item2"
+            style="@style/MenuItemStyle"
+            android:background="@drawable/green"
+            android:visibility="gone"/>
+
+        <Button
+            android:id="@+id/item3"
+            style="@style/MenuItemStyle"
+            android:background="@drawable/red"
+            android:visibility="gone"/>
+
+        <Button
+            android:id="@+id/item4"
+            style="@style/MenuItemStyle"
+            android:background="@drawable/green"
+            android:visibility="gone"/>
+
+        <Button
+            android:id="@+id/item5"
+            style="@style/MenuItemStyle"
+            android:background="@drawable/blue"
+            android:visibility="gone"/>
+    </FrameLayout>
+
+</LinearLayout>
